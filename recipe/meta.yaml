@@ -1,5 +1,5 @@
 {% set name = "gdsfactory" %}
-{% set version = "5.13.0" %}
+{% set version = "5.14.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gdsfactory-{{ version }}.tar.gz
-  sha256: 249515df069e4435cf24439f5bbf87efafb86e5e4b9e34aed1a83db051387688
+  sha256: d1a6e019d8fc5d0410f0a9e46e3eaffbc5f9aa1574716b7343746132ae99a0b1
 
 
 build:
@@ -32,7 +32,7 @@ requirements:
     - omegaconf
     - orjson
     - pandas
-    - phidl ==1.6.1
+    - phidl ==1.6.2
     - picwriter ==0.5
     - pydantic
     - pytest
