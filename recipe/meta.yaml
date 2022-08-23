@@ -33,7 +33,6 @@ requirements:
     - orjson
     - pandas
     - phidl ==1.6.2
-    - picwriter ==0.5
     - pydantic
     - pytest
     - pytest-regressions
