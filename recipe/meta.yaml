@@ -1,5 +1,5 @@
 {% set name = "gdsfactory" %}
-{% set version = "5.19.2" %}
+{% set version = "5.21.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gdsfactory-{{ version }}.tar.gz
-  sha256: 51dc2cbf12c5642c99f4008109b3bca318a540a4f70b771e182d4b477047ead2
+  sha256: 3ecad49e89d6fcb78a19173d11e42ac9ac5ba9371c5e46510256df51a839ac70
 
 
 build:
@@ -33,7 +33,6 @@ requirements:
     - orjson
     - pandas
     - phidl ==1.6.2
-    - picwriter ==0.5
     - pydantic
     - pytest
     - pytest-regressions
