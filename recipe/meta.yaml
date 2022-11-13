@@ -24,7 +24,7 @@ requirements:
   run:
     - click
     - flatdict
-    - gdspy
+    - gdstk
     - jsondiff
     - loguru
     - matplotlib-base
