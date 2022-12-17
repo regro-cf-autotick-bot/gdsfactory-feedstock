@@ -61,7 +61,7 @@ about:
   home: https://github.com/gdsfactory/gdsfactory
   summary: python library to generate GDS layouts
   license: MIT
-  license_file: LICENSE
+  #license_file: LICENSE
 
 extra:
   recipe-maintainers:
