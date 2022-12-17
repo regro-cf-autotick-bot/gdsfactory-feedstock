@@ -21,11 +21,11 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - flit
   run:
     - click
     - flatdict
     - gdstk
-    - jsondiff
     - loguru
     - matplotlib-base
     - numpy
@@ -48,7 +48,6 @@ requirements:
     - typing-extensions
     - watchdog
     - xmltodict
-    - lxml
 
 test:
   imports:
