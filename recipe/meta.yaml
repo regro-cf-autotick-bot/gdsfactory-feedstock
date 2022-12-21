@@ -1,5 +1,5 @@
 {% set name = "gdsfactory" %}
-{% set version = "6.9.0" %}
+{% set version = "6.14.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gdsfactory-{{ version }}.tar.gz
-  sha256: 8bb5cc6281847a8edab8a4ddba0bf4896d711e020029b469360d98129222159f
+  sha256: b7d0149a087adac156db76483a173029b8482edff04f7a2b91c2647e75548d18
 
 
 build:
@@ -21,11 +21,11 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - flit
   run:
     - click
     - flatdict
     - gdstk
-    - jsondiff
     - loguru
     - matplotlib-base
     - numpy
@@ -48,7 +48,6 @@ requirements:
     - typing-extensions
     - watchdog
     - xmltodict
-    - lxml
 
 test:
   imports:
