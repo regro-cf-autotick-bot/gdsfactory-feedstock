@@ -1,11 +1,11 @@
-About gdsfactory
-================
+About gdsfactory-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gdsfactory-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gdsfactory/gdsfactory
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gdsfactory-feedstock/blob/main/LICENSE.txt)
 
 Summary: python library to generate GDS layouts
 
