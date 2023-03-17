@@ -48,6 +48,7 @@ requirements:
     - typing-extensions
     - watchdog
     - xmltodict
+    - rich
 
 test:
   imports:
