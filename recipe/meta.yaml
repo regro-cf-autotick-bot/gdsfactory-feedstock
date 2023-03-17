@@ -49,6 +49,7 @@ requirements:
     - watchdog
     - xmltodict
     - rich
+    - jinja2
 
 test:
   imports:
