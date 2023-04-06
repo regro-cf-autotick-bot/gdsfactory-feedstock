@@ -1,5 +1,5 @@
 {% set name = "gdsfactory" %}
-{% set version = "6.73.1" %}
+{% set version = "6.78.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gdsfactory-{{ version }}.tar.gz
-  sha256: b25416341df24fea04e26adb1326703a7de281d875416e0e053149ce802cac6d
+  sha256: 47229b7dace6b260a6021bee0149237dfe5115101c927b615c720b41b99b3f6c
 
 
 build:
