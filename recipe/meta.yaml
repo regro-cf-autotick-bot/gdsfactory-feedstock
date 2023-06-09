@@ -32,7 +32,6 @@ requirements:
     - omegaconf
     - orjson
     - pandas
-    - phidl
     - pydantic
     - pytest
     - pytest-regressions
