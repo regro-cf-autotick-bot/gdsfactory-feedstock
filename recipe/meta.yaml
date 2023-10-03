@@ -32,7 +32,7 @@ requirements:
     - omegaconf
     - orjson
     - pandas
-    - pydantic <2.0
+    - pydantic >=2.0
     - pytest
     - pytest-regressions
     - python >=3.7
