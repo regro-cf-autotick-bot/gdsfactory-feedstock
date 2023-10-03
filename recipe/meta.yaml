@@ -35,7 +35,9 @@ requirements:
     - pydantic >=2.0
     - pytest
     - pytest-regressions
-    - python >=3.7
+    - python >=3.10
+    - pydantic-settings
+    - pydantic-extra-types
     - pyyaml
     - qrcode
     - rectpack
